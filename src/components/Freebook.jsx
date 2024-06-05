@@ -62,12 +62,8 @@ function Freebook() {
     <>
       <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
-          </p>
+          <h1 className="font-semibold text-xl pb-2">Deals Of The Week</h1>
+        
         </div>
 
         <div>
@@ -77,6 +73,16 @@ function Freebook() {
             ))}
           </Slider>
         </div>
+        <div className="card card-side bg-base-100 shadow-xl">
+  <figure><img src="https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/23.jpg" alt="Movie"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">City of the Dead!</h2>
+    <p>he past comes back to haunt psychologist Alex Delaware and Detective Milo...</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Shop Now</button>
+    </div>
+  </div>
+</div>
       </div>
     </>
   );

@@ -11,9 +11,7 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+              Bookselling is the commercial trading of books which is the retail and distribution end of the publishing process. People who engage in bookselling are called booksellers, bookdealers, bookpeople, bookmen, or bookwomen.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
@@ -38,6 +36,154 @@ function Banner() {
           />
         </div>
       </div>
+
+      <nav class="nav-bar">
+        <div class="nav1">
+            <a href="">Browse Categories</a>
+            <input type="text" id="search_book" placeholder="Search Book"/>
+        </div>
+        <h3>readbooks</h3>
+        <div class="icon-about">
+            <i class="material-icons"><span class="material-icons-outlined">account_circle</span></i>
+            <a href="">About-Us</a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/718ReYbwlFL.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">After You</h2>
+                <h3 class="author">by Jojo Myoes</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    It continues the story of Louisa Clark after Will's death. She is trying to move on. 
+                </p>
+                <button type="submit">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/91JxVjINNsL.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Big Magic</h2>
+                <h3 class="author">by Elizabeth Gilbert</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    Readers of all ages and walks of life have drawn inspiration from Elizabeth
+                    Gilbert’s books.
+                </p>
+                <button type="submit" id="b1">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/9129dzchsGL.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">A Tale for the Time Being</h2>
+                <h3 class="author">by Ruth Ozeki</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness
+                    
+                </p>
+                <button type="submit" id="b2">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81djg0KWthS.jpg"
+                    alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">The Great Gatsby</h2>
+                <h3 class="author">by F. Scott Fitzgerald</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    The novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King 
+                </p>
+                <button type="submit" id="b3">See the Book</button>
+            </div>
+        </div>
+
+    </main>
+    <div class="nav1">
+            <a href="">Free Offered BOOK</a>
+        </div>
+    <main>
+        
+        <div class="books">
+            <div>
+                <img src="https://demo2.tokomoo.com/pustaka-el/wp-content/uploads/sites/19/2016/10/Book_008_0-330x452.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">City of Fallen Angels</h2>
+                <h3 class="author">by Jojo Myoes</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    It continues the story of Louisa Clark after Will's death. She is trying to move on. 
+                </p>
+                <button type="submit">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://demo2.tokomoo.com/pustaka-el/wp-content/uploads/sites/19/2016/10/Book_002-330x452.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">To All the Boys I’ve Loved Before Loved Before</h2>
+                <h3 class="author">by Elizabeth Gilbert</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    Readers of all ages and walks of life have drawn inspiration from Elizabeth
+                    Gilbert’s books.
+                </p>
+                <button type="submit" id="b1">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://demo2.tokomoo.com/pustaka-el/wp-content/uploads/sites/19/2016/10/Book_003-330x452.jpg" alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Since You’ve Been Gone</h2>
+                <h3 class="author">by Ruth Ozeki</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness
+                    
+                </p>
+                <button type="submit" id="b2">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://demo2.tokomoo.com/pustaka-el/wp-content/uploads/sites/19/2016/10/Book_004-330x452.jpg"
+                    alt="" class="book-img"/>
+            </div>
+            <div class="descp">
+                <h2 class="book-name">TREANA NE CONNAIT PAS LA</h2>
+                <h3 class="author">by F. Scott Fitzgerald</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    The novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King 
+                </p>
+                <button type="submit" id="b3">See the Book</button>
+            </div>
+        </div>
+
+    </main>
     </>
   );
 }
